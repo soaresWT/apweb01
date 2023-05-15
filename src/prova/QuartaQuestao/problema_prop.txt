@@ -1,0 +1,9 @@
+o problema do prop driling é quando precisamos passar
+props por varias camadas da nossa aplicação como por exemplo
+uma classe pai passa para um filho, que para passa para um filho, que passa 
+para um filho, visto no desenho na figura 1, se tornando extremanente dificil de gerenciar 
+os props nessa situação
+
+já com use context resolve esse problema sem precisar de bibliotecas auxiliares, como redux
+como visto na figura 2, nos criamos apenas um contexto que ira prover para toda aplicação tornando mais 
+facil gerenciar nesse caso
