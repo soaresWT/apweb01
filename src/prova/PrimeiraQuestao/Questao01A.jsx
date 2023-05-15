@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Questao01B from "./Questao01B";
 const Questao01a = () => {
+  //criando variavel de estado para armazenar as medias
   const [media, setMedia] = useState([]);
 
   const alunos = [
